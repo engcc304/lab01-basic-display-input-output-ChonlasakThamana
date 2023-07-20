@@ -38,13 +38,13 @@ int main() {
     printf( "Input the working hrs:\n" );
     scanf( "%d" , &Hours );
     printf( "Salary amount/hr:\n" );
-    scanf( "%d",&SalaryHrs );
+    scanf( "%f",&SalaryHrs );
 
     Salary = Hours * SalaryHrs ;
 
     printf ( "Expected Output:\n" );
     printf ( "Employees ID = %s\n" ,  EmployeesID );
-    printf ( "Salary = U$ %0.2f\n" , Salary * Hours );
+    printf ( "Salary = U$ %0.2f\n" , Salary *Hours );
 
     return 0 ;
 }//end main function
